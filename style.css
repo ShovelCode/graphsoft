@@ -1,0 +1,31 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Light grey background */
+}
+
+.centered-container {
+    text-align: center;
+}
+
+.centered-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.centered-container li {
+    margin: 10px 0;
+}
+
+.centered-container a {
+    text-decoration: none;
+    color: #007bff; /* Bootstrap primary blue */
+    font-size: 18px;
+}
+
+.centered-container a:hover {
+    text-decoration: underline;
+}
